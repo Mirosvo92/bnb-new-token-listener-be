@@ -1,0 +1,33 @@
+{
+  "name": "bnb-new-token-listener-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=development nodemon app.js",
+    "start:stage": "cross-env NODE_ENV=staging node app.js",
+    "start:prod": "cross-env NODE_ENV=production node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv-flow": "^0.1.0",
+    "ethers": "^5.0.32",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "socket.io": "^4.7.3"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "nodemon": "^1.18.10"
+  },
+  "_moduleAliases": {
+    "@": "."
+  }
+}
